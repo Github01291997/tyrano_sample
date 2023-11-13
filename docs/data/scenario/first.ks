@@ -1,45 +1,44 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="ラクダゲーム"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「ラクダゲーム」[l][r]
 
-メロスは激怒した。[l][r]
+あるところに1つのラクダがあった。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+そのラクダは荒れ果てた砂漠に1人で住んでおり、仲間がいなかった。[l][r]
 
 (中略)[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+砂漠の外ってどんな世界なんだろう。仲間を探しに行くか。でももう夜だし、生まれ育った砂漠を出るのは怖いし、眠いなあ。。。[l][r]
 
 [link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_walk] →歩く [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=rakudasleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+ラクダは深い眠りについた。[l][r]
+仲間はできなかった。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_walk
 
-[bg storage=run.jpg time=500]
+[bg storage=rakudawalk.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+ラクダは砂漠を何日も歩き続けた。[l][r]
+照りつける太陽の下で、喉も渇き、もう歩き続ける力はなく、諦めようと思ったそのとき、砂嵐の向こうからスーツを着た商社マン風の男と医師の女、背の高い男、小太りの少年の一行が歩いてきた。仲間ができた。[r]
 
 【 GOOD END 】[l][cm]
 
